@@ -2,23 +2,25 @@
     "name": "threads-api-local",
     "version": "1.0.0",
     "description": "本地版本的 Threads API 資料抓取工具",
-    "main": "threads-api-local.js",
+    "main": "threads_insight.js",
     "scripts": {
-      "start": "node threads-api-local.js",
-      "test": "node test.js"
+        "start": "node threads_insight.js",
+        "test": "node test.js"
     },
     "dependencies": {
-      "node-fetch": "^3.3.2"
+        "@google-cloud/secret-manager": "^5.0.0",
+        "googleapis": "^153.0.0",
+        "node-fetch": "^3.3.2"
     },
     "engines": {
-      "node": ">=18.0.0"
+        "node": ">=18.0.0"
     },
     "keywords": [
-      "threads",
-      "api",
-      "social-media",
-      "data-extraction"
+        "threads",
+        "api",
+        "social-media",
+        "data-extraction"
     ],
     "author": "",
     "license": "MIT"
-  }
+}
